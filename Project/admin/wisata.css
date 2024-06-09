@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#user{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#user td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#user tr:nth-child(even){background-color: #f2f2f2;}
+  
+#user tr:hover {background-color: #ddd;}
+  
+#user th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1D24CA;
+    color: white;
+}
+button{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 1px #000 solid;
+}
+button{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 1px #000 solid;
+}
+.navbar{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f3f3f3;
+    border-radius: 0px 0 5px 5px;
+    padding: 0%;
+}
+.navbar h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    padding: 2px;
+    margin-left: 10px;
+}
+.h2 h2{
+    color: #1D24CA;
+    margin-left: 5px;
+}
+.navbar a:hover{
+    color: #265073;
+}
+.navbar a::after{
+    content: '';
+    display: block;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #fff;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+.navbar a:hover::after{
+    transform: scaleX(0.5);
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    color: #000;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.menu-icon:hover{
+    color: #fff;
+    background-color: #000;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-family: Arial;
+}
+.row{
+    height: 88%;
+    align-items: center;
+    display: flex;
+}
+.col{
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+    font-family: Arial;
+}
+p{
+    font-family: Arial;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    font-family: Arial;
+}
